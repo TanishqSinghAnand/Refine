@@ -16,7 +16,7 @@ export const Login: React.FC = () => {
 
   const { signIn } = useGoogleLogin({
     onSuccess: (response) => login(response as GoogleLoginResponse),
-    clientId: "your-client-id",
+    clientId: "363579994224-emq44kh6bd54ps0ssab3pu1vbd0l6295.apps.googleusercontent.com",
     isSignedIn: true,
     cookiePolicy: "single_host_origin",
   });
